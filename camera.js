@@ -46,7 +46,7 @@ pc.script.create('camera', function (context) {
             this.entity.setPosition(this.target.getPosition());
             this.entity.setRotation(this.target.getRotation());
             this.entity.rotateLocal(this.elevation, 0, 0);
-            this.entity.translateLocal(0, 0, this.distance);
+            this.entity.translateLocal(0, this.distance, 0);
         },
 
         updateTrailingFollow: function (dt) {
