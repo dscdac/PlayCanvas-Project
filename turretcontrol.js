@@ -33,10 +33,10 @@ pc.script.create('turretcontrols', function (context) {
                 this.turret.rotate(0, -this.speed * dt, 0);
             }
             if (context.keyboard.isPressed(pc.input.KEY_UP)) {
-                this.turret.rotate(-this.speed * dt, 0, 0);
+                this.turret.rotate(0, 0, -this.speed * dt);
             }
             if (context.keyboard.isPressed(pc.input.KEY_DOWN)) {
-                this.turret.rotate(this.speed * dt, 0, 0);
+                this.turret.rotate(0, 0, this.speed * dt);
             }
 
             if (context.keyboard.isPressed(pc.input.KEY_SPACE)){

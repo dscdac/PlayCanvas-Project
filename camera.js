@@ -3,6 +3,7 @@ pc.script.attribute("distance", "number", 5);
 pc.script.attribute("positionFactor", "number", 0.2);
 pc.script.attribute("rotationFactor", "number", 0.2);
 
+
 pc.script.create('camera', function (context) {
     // Creates a new Camera instance
     var Camera = function (entity) {
