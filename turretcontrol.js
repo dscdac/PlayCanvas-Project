@@ -40,7 +40,7 @@ pc.script.create('turretcontrols', function (context) {
             }
 
             if (context.keyboard.isPressed(pc.input.KEY_SPACE)){
-                this.turret.setRotation(0, 1, 0, 0);
+                this.turret.setRotation(0, 0, 0, 0);
             }
 
             if (context.keyboard.wasPressed(pc.input.KEY_E)) {
